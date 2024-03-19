@@ -355,8 +355,8 @@ font-weight: 500;
 }
 .div-logo-footer{
     margin-right: 120px;
-    display: flex; 
-    
+
+     
 }
 .logo-down {
     color: #4D5AE5;
@@ -367,7 +367,9 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 display: inline-block;
-margin-bottom: 16px; 
+padding-bottom: 16px;
+
+
 }
 .logo-part-footer{
     color: #F4F4FD;
@@ -379,7 +381,6 @@ margin-bottom: 16px;
     display: block;
     max-width: 264px;
     color: #ffffff;
-    margin-bottom: 16px;
 }
 .footer-title{
 font-weight: 500;
@@ -390,6 +391,7 @@ color: #ffffff;
 text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 margin-bottom: 10px;
 display: inline-block;
+position: relative;
 
 
 }
@@ -419,7 +421,7 @@ display: inline-block;
     display: flex;
     justify-content: center;
     gap: 16px;
-    
+    position: absolute;
    
 } 
 .footer-media{
@@ -427,14 +429,13 @@ display: inline-block;
        justify-content: center;
        display: block;
        bottom: 60px;
-       position: relative;
+       
       
 }
 .footer-title{
-    position: absolute;
+    
     content: "";
-    left: 500px;
-    bottom: 60px;
+    position: relative;
     color: #FFFFFF;
     margin-bottom: 16px;
 
