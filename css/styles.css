@@ -448,7 +448,7 @@ position: relative;
 .social-list-icon {
     fill: #F4F4FD;
 }
-
+/* modal */
 .backdrop {
 position: fixed;
 top: 0;
@@ -459,7 +459,15 @@ background-color: rgba(46, 47, 66, 0.40);
 
 }
 .modal {
-
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 408px;
+    min-height: 584px;
+    background-color: #FCFCFC;
+    border: 1px solid #000;
+    border-radius: 4px;
 }
 .modal-close-btn {
 
